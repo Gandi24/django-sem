@@ -1,4 +1,7 @@
 from M2Crypto import BIO, Rand, SMIME, X509
+from django.core.mail import send_mail, EmailMessage, SafeMIMEMultipart
+from email import message_from_string
+import settings
 
 def createsmime(msg, from_key, from_cert):
     """

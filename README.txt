@@ -5,10 +5,32 @@ SignedEmailMessage
 SignedEmailMessage is a django package modifying the original, built-in EmailMessage 
 by adding a possibility to add signing certificats.
 
-Typical usage might looks like this:
-msg = SignedEmailMessage(
+INITIAL ACTIONS
+===============
+
+1. Include SEM in your settings' installed apps.
+INSTALLED_APPS = (
+	...
+	'SEM',
+	...
+	)
+
+2. Add your authentication certificate to your settings.
+AUTH_CERT = "resources/cert.pem"
+
+This is the highest available cert in cery-chain.
+ 
+
+TYPICAL USAGE
+=============
+
+from SEM import SEMail
+
+msg = SEMail.SignedEmailMessage(
             subject, message_body, sender, recipient_list, attachments=attachments,
             from_key=from_key, from_cert=from_cert)
+msg.send()
+
 
 REQUIREMENTS
 ============

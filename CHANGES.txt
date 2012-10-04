@@ -1,2 +1,8 @@
-v1.1, 04.10.12 -- Quick rescue.
-v1.0, 04.10.12 -- Initial release.
+v0.2.0, 04.10.12 -- Updated README. Working well now.
+v0.1.6, 04.10.12 -- Still missing settings import.
+v0.1.5, 04.10.12 -- I admit, that name 'mail' was not the best for module.
+v0.1.4, 04.10.12 -- Changed names so that using would be easier.
+v0.1.3, 04.10.12 -- Added missing imports.
+v0.1.2, 04.10.12 -- Changed main directory name.
+v0.1.1, 04.10.12 -- Quick rescue.
+v0.1.0, 04.10.12 -- Initial release.
