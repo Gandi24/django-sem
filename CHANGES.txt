@@ -1,1 +1,2 @@
+v1.1, 04.10.12 -- Quick rescue.
 v1.0, 04.10.12 -- Initial release.
