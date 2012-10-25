@@ -3,7 +3,7 @@ from setuptools import find_packages
 
 setup(
     name='django-sem',
-    version='0.2.0',
+    version='0.2.1',
     author='Jakub Wasielak',
     author_email='kuba.wasielak@gmail.com',
     packages=find_packages(),

@@ -1,3 +1,4 @@
+v0.2.1, 25.10.12 -- Updated README - added missing instruction.
 v0.2.0, 04.10.12 -- Updated README. Working well now.
 v0.1.6, 04.10.12 -- Still missing settings import.
 v0.1.5, 04.10.12 -- I admit, that name 'mail' was not the best for module.

@@ -15,8 +15,9 @@ INSTALLED_APPS = (
 	...
 	)
 
-2. Add your authentication certificate to your settings.
-AUTH_CERT = "resources/cert.pem"
+2. Add default charset and your authentication certificate to your settings.
+DEFAULT_CHARSET = 'utf-8'
+AUTH_CERT = "media/cert.pem"
 
 This is the highest available cert in cery-chain.
  
@@ -31,6 +32,9 @@ msg = SEMail.SignedEmailMessage(
             from_key=from_key, from_cert=from_cert)
 msg.send()
 
+Where from_key and from_cert are routes to your key and cert:
+from_key = "media/mail_key.pem"
+from_cert = "media/mail.pem"
 
 REQUIREMENTS
 ============
